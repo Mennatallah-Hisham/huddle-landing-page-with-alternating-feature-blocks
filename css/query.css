@@ -1,0 +1,137 @@
+@media (min-width: 765px) {
+  /*************general********************/
+
+  p {
+    max-width: 45rem;
+  }
+
+  .img {
+    height: 35rem;
+  }
+
+  .container {
+    padding: var(--padding-m);
+  }
+
+  /**************** footer*************/
+  .footer-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 4rem;
+
+    align-items: center;
+  }
+  .social-links a:link
+
+{
+ 
+    font-size: 2rem;
+}
+
+  .footer-logo {
+    margin-left: 0;
+  }
+  .footer p {
+    font-size: 1.6rem;
+  }
+
+  .cp-right {
+    margin-right: 0;
+  }
+}
+
+/************************************************/
+/******************900********************/
+
+@media (min-width: 900px) {
+  .container {
+    padding: 2rem;
+  }
+
+  section {
+    padding: 0;
+  }
+  .img {
+    height: 25rem;
+    margin-inline: 0;
+  }
+  p {
+    margin: 0 auto;
+    padding-left: 0;
+    font-size: 2rem;
+    text-align: left;
+  }
+
+  .frow {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 3rem;
+  }
+  .frow-reverse {
+    flex-direction: row-reverse;
+  }
+
+  /**************** headings ********************/
+  .heading-primary,
+  .heading-secondary {
+    text-align: left;
+  }
+
+  .sec-cta .heading-secondary {
+    text-align: center;
+  }
+
+  .heading-primary {
+    font-size: 5rem;
+  }
+
+  .heading-secondary {
+    font-size: 3.6rem;
+  }
+
+  /**************** content ********************/
+
+  .hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .user-content {
+    width: 100%;
+  }
+
+  /**************** header********************/
+
+  .header-logo {
+    height: 2.8rem;
+  }
+
+  /******************** cta **************************/
+
+  .sec-cta {
+    padding: var(--padding-sm) 0;
+  }
+  /******************** footer**************************/
+  .footer {
+    padding-top: 20rem;
+  }
+  .footer-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+/************************************************/
+/******************1200********************/
+/********************************************/
+@media (min-width: 1200px) {
+  .hero-txt p,
+  .heading-primary {
+    text-align: center;
+  }
+  .img {
+    height: 30rem;
+  }
+}
